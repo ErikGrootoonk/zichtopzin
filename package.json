@@ -1,0 +1,25 @@
+{
+  "name": "zichtopzin",
+  "version": "1.0.0",
+  "description": "Website Ellen",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErikGrootoonk/zichtopzin.git"
+  },
+  "author": "Erik, Ellen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErikGrootoonk/zichtopzin/issues"
+  },
+  "homepage": "https://github.com/ErikGrootoonk/zichtopzin#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}
